@@ -1,0 +1,3570 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2026-10-11T08:11:56Z",
+  "lastUpdatedDateTime": "2026-10-11T08:12:00Z",
+  "analyzeResult": {
+    "apiVersion": "2024-11-30",
+    "modelId": "prebuilt-layout",
+    "stringIndexType": "textElements",
+    "content": "CASE APPLICATION FORM DecisionStream AI - Motor Claims Intake Document APP-0008 Page 1 of 2\nClaim Reference: CLM-2026-4552\nPolicy Number: MOT-4552901\nApplicant Full Name: [PERSON_09]\nDate of Birth: 1972-05-08\nVehicle Registration: PC17 KDN\nIncident Date: 2026-03-12\nSum Insured: 5600.00\nExcess: 250.00\nCASE APPLICATION FORM\nDecisionStream AI - Motor Claims Intake Document APP-0008\nPage 2 of 2\nParts Subtotal: 2900.00\nLabour Subtotal: 1480.00\nRepair Estimate Total: 4880.00\nDECLARATION\nI declare that the information given on this form is true and complete to the best of my knowledge. I understand that giving false information may invalidate my policy and may be reported to the relevant authorities.\nSignature:\nDate:",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": -0.1193000003695488,
+        "width": 8.2639,
+        "height": 11.6944,
+        "unit": "inch",
+        "words": [
+          {
+            "content": "CASE",
+            "polygon": [
+              0.8844,
+              0.7028,
+              1.4979,
+              0.7036,
+              1.4978,
+              0.9193,
+              0.8841,
+              0.9193
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 0,
+              "length": 4
+            }
+          },
+          {
+            "content": "APPLICATION",
+            "polygon": [
+              1.5621,
+              0.7035,
+              3.0566,
+              0.7017,
+              3.0563,
+              0.9193,
+              1.562,
+              0.9193
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 5,
+              "length": 11
+            }
+          },
+          {
+            "content": "FORM",
+            "polygon": [
+              3.1493,
+              0.7015,
+              3.7978,
+              0.6996,
+              3.7978,
+              0.9189,
+              3.149,
+              0.9193
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 17,
+              "length": 4
+            }
+          },
+          {
+            "content": "DecisionStream",
+            "polygon": [
+              0.8849,
+              1.0168,
+              1.8603,
+              1.0162,
+              1.8605,
+              1.1627,
+              0.8855,
+              1.1636
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 22,
+              "length": 14
+            }
+          },
+          {
+            "content": "AI",
+            "polygon": [
+              1.904,
+              1.0162,
+              2.0277,
+              1.0159,
+              2.0279,
+              1.1633,
+              1.9042,
+              1.1629
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 37,
+              "length": 2
+            }
+          },
+          {
+            "content": "-",
+            "polygon": [
+              2.1126,
+              1.0153,
+              2.1587,
+              1.015,
+              2.1589,
+              1.1641,
+              2.1128,
+              1.1638
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 40,
+              "length": 1
+            }
+          },
+          {
+            "content": "Motor",
+            "polygon": [
+              2.2437,
+              1.015,
+              2.5955,
+              1.0145,
+              2.5956,
+              1.1636,
+              2.2438,
+              1.1636
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 42,
+              "length": 5
+            }
+          },
+          {
+            "content": "Claims",
+            "polygon": [
+              2.6343,
+              1.0143,
+              3.0516,
+              1.0151,
+              3.0517,
+              1.164,
+              2.6344,
+              1.1635
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 48,
+              "length": 6
+            }
+          },
+          {
+            "content": "Intake",
+            "polygon": [
+              3.1026,
+              1.0151,
+              3.4837,
+              1.016,
+              3.4837,
+              1.1649,
+              3.1027,
+              1.1641
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 55,
+              "length": 6
+            }
+          },
+          {
+            "content": "Document",
+            "polygon": [
+              0.8837,
+              1.2189,
+              1.5202,
+              1.2166,
+              1.5207,
+              1.3592,
+              0.8843,
+              1.3632
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 62,
+              "length": 8
+            }
+          },
+          {
+            "content": "APP-0008",
+            "polygon": [
+              1.5556,
+              1.2166,
+              2.1988,
+              1.2121,
+              2.1988,
+              1.359,
+              1.556,
+              1.359
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 71,
+              "length": 8
+            }
+          },
+          {
+            "content": "Page",
+            "polygon": [
+              2.5727,
+              1.2192,
+              2.897,
+              1.2204,
+              2.897,
+              1.3674,
+              2.5724,
+              1.368
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 80,
+              "length": 4
+            }
+          },
+          {
+            "content": "1",
+            "polygon": [
+              2.9503,
+              1.2202,
+              2.9963,
+              1.2203,
+              2.996,
+              1.3684,
+              2.9501,
+              1.3679
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 85,
+              "length": 1
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              3.0568,
+              1.22,
+              3.1803,
+              1.2194,
+              3.1801,
+              1.3663,
+              3.0566,
+              1.3679
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 87,
+              "length": 2
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              3.2117,
+              1.219,
+              3.301,
+              1.2184,
+              3.301,
+              1.3656,
+              3.2115,
+              1.3663
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 90,
+              "length": 1
+            }
+          },
+          {
+            "content": "Claim",
+            "polygon": [
+              0.8824,
+              1.8384,
+              1.2702,
+              1.8378,
+              1.2705,
+              1.9986,
+              0.883,
+              1.9986
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 92,
+              "length": 5
+            }
+          },
+          {
+            "content": "Reference:",
+            "polygon": [
+              1.3287,
+              1.8375,
+              2.0565,
+              1.8364,
+              2.0565,
+              1.9986,
+              1.3289,
+              1.9986
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 98,
+              "length": 10
+            }
+          },
+          {
+            "content": "CLM-2026-4552",
+            "polygon": [
+              2.1149,
+              1.8362,
+              3.2267,
+              1.8336,
+              3.2267,
+              1.9963,
+              2.1149,
+              1.9986
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 109,
+              "length": 13
+            }
+          },
+          {
+            "content": "Policy",
+            "polygon": [
+              0.8793,
+              2.1465,
+              1.2784,
+              2.1468,
+              1.2785,
+              2.3169,
+              0.8791,
+              2.3172
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 123,
+              "length": 6
+            }
+          },
+          {
+            "content": "Number:",
+            "polygon": [
+              1.3117,
+              2.1468,
+              1.9131,
+              2.144,
+              1.9133,
+              2.3116,
+              1.3118,
+              2.3166
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 130,
+              "length": 7
+            }
+          },
+          {
+            "content": "MOT-4552901",
+            "polygon": [
+              1.9741,
+              2.1438,
+              2.9469,
+              2.1394,
+              2.9469,
+              2.3066,
+              1.9741,
+              2.3113
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 138,
+              "length": 11
+            }
+          },
+          {
+            "content": "Applicant",
+            "polygon": [
+              0.8779,
+              2.4463,
+              1.517,
+              2.4474,
+              1.5169,
+              2.6267,
+              0.8778,
+              2.6267
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 150,
+              "length": 9
+            }
+          },
+          {
+            "content": "Full",
+            "polygon": [
+              1.5675,
+              2.4473,
+              1.7815,
+              2.4458,
+              1.7812,
+              2.6254,
+              1.5674,
+              2.6265
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 160,
+              "length": 4
+            }
+          },
+          {
+            "content": "Name:",
+            "polygon": [
+              1.8172,
+              2.4455,
+              2.2839,
+              2.4435,
+              2.2832,
+              2.6241,
+              1.8169,
+              2.6252
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 165,
+              "length": 5
+            }
+          },
+          {
+            "content": "[PERSON_09]",
+            "polygon": [
+              2.3433,
+              2.4434,
+              3.3353,
+              2.4395,
+              3.3353,
+              2.6267,
+              2.3425,
+              2.624
+            ],
+            "confidence": 0.646,
+            "span": {
+              "offset": 171,
+              "length": 11
+            }
+          },
+          {
+            "content": "Date",
+            "polygon": [
+              0.8833,
+              2.757,
+              1.2049,
+              2.7573,
+              1.2053,
+              2.9179,
+              0.8837,
+              2.9179
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 183,
+              "length": 4
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              1.2528,
+              2.7573,
+              1.3724,
+              2.7562,
+              1.3728,
+              2.9179,
+              1.2532,
+              2.9179
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 188,
+              "length": 2
+            }
+          },
+          {
+            "content": "Birth:",
+            "polygon": [
+              1.4043,
+              2.7561,
+              1.7685,
+              2.7551,
+              1.7686,
+              2.9168,
+              1.4047,
+              2.9179
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 191,
+              "length": 6
+            }
+          },
+          {
+            "content": "1972-05-08",
+            "polygon": [
+              1.8323,
+              2.7548,
+              2.6099,
+              2.7513,
+              2.6099,
+              2.9142,
+              1.8323,
+              2.9165
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 198,
+              "length": 10
+            }
+          },
+          {
+            "content": "Vehicle",
+            "polygon": [
+              0.8763,
+              3.0576,
+              1.3829,
+              3.0568,
+              1.3829,
+              3.232,
+              0.8771,
+              3.232
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 209,
+              "length": 7
+            }
+          },
+          {
+            "content": "Registration:",
+            "polygon": [
+              1.4376,
+              3.0568,
+              2.2781,
+              3.0549,
+              2.2778,
+              3.2305,
+              1.4376,
+              3.232
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 217,
+              "length": 13
+            }
+          },
+          {
+            "content": "PC17",
+            "polygon": [
+              2.3385,
+              3.0547,
+              2.707,
+              3.0544,
+              2.7068,
+              3.2292,
+              2.3383,
+              3.2303
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 231,
+              "length": 4
+            }
+          },
+          {
+            "content": "KDN",
+            "polygon": [
+              2.7617,
+              3.0545,
+              3.084,
+              3.0519,
+              3.084,
+              3.2254,
+              2.7615,
+              3.2294
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 236,
+              "length": 3
+            }
+          },
+          {
+            "content": "Incident",
+            "polygon": [
+              0.8811,
+              3.3696,
+              1.4209,
+              3.3695,
+              1.4212,
+              3.5289,
+              0.8813,
+              3.5289
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 240,
+              "length": 8
+            }
+          },
+          {
+            "content": "Date:",
+            "polygon": [
+              1.4707,
+              3.3693,
+              1.8192,
+              3.369,
+              1.8194,
+              3.5276,
+              1.4709,
+              3.5289
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 249,
+              "length": 5
+            }
+          },
+          {
+            "content": "2026-03-12",
+            "polygon": [
+              1.8716,
+              3.369,
+              2.6671,
+              3.3667,
+              2.6671,
+              3.5271,
+              1.8717,
+              3.5275
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 255,
+              "length": 10
+            }
+          },
+          {
+            "content": "Sum",
+            "polygon": [
+              0.8794,
+              3.6708,
+              1.1948,
+              3.671,
+              1.1956,
+              3.8315,
+              0.88,
+              3.8315
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 266,
+              "length": 3
+            }
+          },
+          {
+            "content": "Insured:",
+            "polygon": [
+              1.2531,
+              3.6711,
+              1.7858,
+              3.6699,
+              1.7861,
+              3.8313,
+              1.2537,
+              3.8315
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 270,
+              "length": 8
+            }
+          },
+          {
+            "content": "5600.00",
+            "polygon": [
+              1.8415,
+              3.6698,
+              2.3986,
+              3.6672,
+              2.3986,
+              3.8296,
+              1.8418,
+              3.8308
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 279,
+              "length": 7
+            }
+          },
+          {
+            "content": "Excess:",
+            "polygon": [
+              0.8793,
+              3.9799,
+              1.4395,
+              3.9816,
+              1.4396,
+              4.1358,
+              0.8808,
+              4.1374
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 287,
+              "length": 7
+            }
+          },
+          {
+            "content": "250.00",
+            "polygon": [
+              1.4701,
+              3.9821,
+              1.936,
+              3.978,
+              1.936,
+              4.1347,
+              1.4701,
+              4.1355
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 295,
+              "length": 6
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "CASE APPLICATION FORM",
+            "polygon": [
+              0.884,
+              0.701,
+              3.7937,
+              0.6995,
+              3.7938,
+              0.9175,
+              0.8841,
+              0.919
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 21
+              }
+            ]
+          },
+          {
+            "content": "DecisionStream AI - Motor Claims Intake",
+            "polygon": [
+              0.8849,
+              1.0127,
+              3.4818,
+              1.0139,
+              3.4817,
+              1.1625,
+              0.8848,
+              1.1613
+            ],
+            "spans": [
+              {
+                "offset": 22,
+                "length": 39
+              }
+            ]
+          },
+          {
+            "content": "Document APP-0008",
+            "polygon": [
+              0.8837,
+              1.2171,
+              2.1981,
+              1.2121,
+              2.1987,
+              1.3566,
+              0.8842,
+              1.3616
+            ],
+            "spans": [
+              {
+                "offset": 62,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "Page 1 of 2",
+            "polygon": [
+              2.5723,
+              1.2192,
+              3.2968,
+              1.2185,
+              3.2969,
+              1.3656,
+              2.5724,
+              1.3664
+            ],
+            "spans": [
+              {
+                "offset": 80,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "Claim Reference: CLM-2026-4552",
+            "polygon": [
+              0.8824,
+              1.8384,
+              3.2218,
+              1.8331,
+              3.2221,
+              1.9938,
+              0.8828,
+              1.9986
+            ],
+            "spans": [
+              {
+                "offset": 92,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "Policy Number: MOT-4552901",
+            "polygon": [
+              0.8786,
+              2.1465,
+              2.9438,
+              2.1394,
+              2.9444,
+              2.3092,
+              0.8791,
+              2.3162
+            ],
+            "spans": [
+              {
+                "offset": 123,
+                "length": 26
+              }
+            ]
+          },
+          {
+            "content": "Applicant Full Name: [PERSON_09]",
+            "polygon": [
+              0.8776,
+              2.4416,
+              3.3307,
+              2.4395,
+              3.3309,
+              2.6237,
+              0.8778,
+              2.6258
+            ],
+            "spans": [
+              {
+                "offset": 150,
+                "length": 32
+              }
+            ]
+          },
+          {
+            "content": "Date of Birth: 1972-05-08",
+            "polygon": [
+              0.8832,
+              2.757,
+              2.6094,
+              2.7513,
+              2.6099,
+              2.9124,
+              0.8837,
+              2.9179
+            ],
+            "spans": [
+              {
+                "offset": 183,
+                "length": 25
+              }
+            ]
+          },
+          {
+            "content": "Vehicle Registration: PC17 KDN",
+            "polygon": [
+              0.8763,
+              3.0574,
+              3.0839,
+              3.0519,
+              3.084,
+              3.2273,
+              0.8767,
+              3.232
+            ],
+            "spans": [
+              {
+                "offset": 209,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "Incident Date: 2026-03-12",
+            "polygon": [
+              0.8809,
+              3.3696,
+              2.6619,
+              3.3663,
+              2.6622,
+              3.5254,
+              0.8812,
+              3.5287
+            ],
+            "spans": [
+              {
+                "offset": 240,
+                "length": 25
+              }
+            ]
+          },
+          {
+            "content": "Sum Insured: 5600.00",
+            "polygon": [
+              0.8794,
+              3.6708,
+              2.3945,
+              3.6672,
+              2.3949,
+              3.8279,
+              0.8798,
+              3.8315
+            ],
+            "spans": [
+              {
+                "offset": 266,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "Excess: 250.00",
+            "polygon": [
+              0.8793,
+              3.9799,
+              1.9356,
+              3.9777,
+              1.9359,
+              4.1326,
+              0.8796,
+              4.1348
+            ],
+            "spans": [
+              {
+                "offset": 287,
+                "length": 14
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 301
+          }
+        ]
+      },
+      {
+        "pageNumber": 2,
+        "angle": -0.0027000000700354576,
+        "width": 8.2639,
+        "height": 11.6944,
+        "unit": "inch",
+        "words": [
+          {
+            "content": "CASE",
+            "polygon": [
+              0.8841,
+              0.7,
+              1.4972,
+              0.701,
+              1.4969,
+              0.9214,
+              0.8835,
+              0.9211
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 302,
+              "length": 4
+            }
+          },
+          {
+            "content": "APPLICATION",
+            "polygon": [
+              1.5625,
+              0.7009,
+              3.0572,
+              0.6994,
+              3.0566,
+              0.9217,
+              1.5622,
+              0.9214
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 307,
+              "length": 11
+            }
+          },
+          {
+            "content": "FORM",
+            "polygon": [
+              3.1479,
+              0.6993,
+              3.7978,
+              0.6978,
+              3.7978,
+              0.9212,
+              3.1473,
+              0.9214
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 319,
+              "length": 4
+            }
+          },
+          {
+            "content": "DecisionStream",
+            "polygon": [
+              0.8839,
+              1.0157,
+              1.8619,
+              1.0152,
+              1.8619,
+              1.1626,
+              0.8842,
+              1.1632
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 324,
+              "length": 14
+            }
+          },
+          {
+            "content": "AI",
+            "polygon": [
+              1.9033,
+              1.0152,
+              2.0277,
+              1.015,
+              2.0277,
+              1.1635,
+              1.9034,
+              1.1628
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 339,
+              "length": 2
+            }
+          },
+          {
+            "content": "-",
+            "polygon": [
+              2.113,
+              1.0146,
+              2.1594,
+              1.0143,
+              2.1593,
+              1.1641,
+              2.113,
+              1.1639
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 342,
+              "length": 1
+            }
+          },
+          {
+            "content": "Motor",
+            "polygon": [
+              2.2423,
+              1.0143,
+              2.5959,
+              1.0136,
+              2.5959,
+              1.1636,
+              2.2421,
+              1.1637
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 344,
+              "length": 5
+            }
+          },
+          {
+            "content": "Claims",
+            "polygon": [
+              2.6349,
+              1.0134,
+              3.0519,
+              1.0142,
+              3.0519,
+              1.1636,
+              2.6349,
+              1.1636
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 350,
+              "length": 6
+            }
+          },
+          {
+            "content": "Intake",
+            "polygon": [
+              3.1031,
+              1.0142,
+              3.4837,
+              1.0152,
+              3.4837,
+              1.1649,
+              3.1031,
+              1.1637
+            ],
+            "confidence": 1,
+            "span": {
+              "offset": 357,
+              "length": 6
+            }
+          },
+          {
+            "content": "Document",
+            "polygon": [
+              0.8837,
+              1.218,
+              1.5202,
+              1.2158,
+              1.5205,
+              1.359,
+              0.884,
+              1.3622
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 364,
+              "length": 8
+            }
+          },
+          {
+            "content": "APP-0008",
+            "polygon": [
+              1.5557,
+              1.2157,
+              2.1988,
+              1.2112,
+              2.1988,
+              1.359,
+              1.556,
+              1.3588
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 373,
+              "length": 8
+            }
+          },
+          {
+            "content": "Page",
+            "polygon": [
+              2.5721,
+              1.2178,
+              2.897,
+              1.2189,
+              2.8968,
+              1.367,
+              2.5717,
+              1.3676
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 382,
+              "length": 4
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              2.941,
+              1.2186,
+              3.0143,
+              1.2187,
+              3.0138,
+              1.3683,
+              2.9407,
+              1.3675
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 387,
+              "length": 1
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              3.0583,
+              1.2185,
+              3.1804,
+              1.2179,
+              3.1801,
+              1.3662,
+              3.0579,
+              1.3678
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 389,
+              "length": 2
+            }
+          },
+          {
+            "content": "2",
+            "polygon": [
+              3.2122,
+              1.2176,
+              3.301,
+              1.2172,
+              3.301,
+              1.3655,
+              3.2118,
+              1.3662
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 392,
+              "length": 1
+            }
+          },
+          {
+            "content": "Parts",
+            "polygon": [
+              0.879,
+              1.8377,
+              1.2412,
+              1.8378,
+              1.2412,
+              1.9972,
+              0.8791,
+              1.9971
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 394,
+              "length": 5
+            }
+          },
+          {
+            "content": "Subtotal:",
+            "polygon": [
+              1.288,
+              1.8378,
+              1.8794,
+              1.8365,
+              1.8792,
+              1.9956,
+              1.2881,
+              1.9971
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 400,
+              "length": 9
+            }
+          },
+          {
+            "content": "2900.00",
+            "polygon": [
+              1.9315,
+              1.8366,
+              2.4942,
+              1.8353,
+              2.4939,
+              1.994,
+              1.9312,
+              1.9954
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 410,
+              "length": 7
+            }
+          },
+          {
+            "content": "Labour",
+            "polygon": [
+              0.8806,
+              2.1478,
+              1.3662,
+              2.1452,
+              1.3667,
+              2.3069,
+              0.881,
+              2.3069
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 418,
+              "length": 6
+            }
+          },
+          {
+            "content": "Subtotal:",
+            "polygon": [
+              1.4086,
+              2.1453,
+              2.0349,
+              2.1438,
+              2.0349,
+              2.3058,
+              1.4091,
+              2.3069
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 425,
+              "length": 9
+            }
+          },
+          {
+            "content": "1480.00",
+            "polygon": [
+              2.0694,
+              2.1438,
+              2.6099,
+              2.1426,
+              2.6099,
+              2.3056,
+              2.0693,
+              2.3056
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 435,
+              "length": 7
+            }
+          },
+          {
+            "content": "Repair",
+            "polygon": [
+              0.8785,
+              2.4488,
+              1.3401,
+              2.45,
+              1.34,
+              2.6185,
+              0.8783,
+              2.6204
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 443,
+              "length": 6
+            }
+          },
+          {
+            "content": "Estimate",
+            "polygon": [
+              1.3871,
+              2.4496,
+              1.9704,
+              2.4474,
+              1.9702,
+              2.6151,
+              1.387,
+              2.6182
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 450,
+              "length": 8
+            }
+          },
+          {
+            "content": "Total:",
+            "polygon": [
+              2.0174,
+              2.4472,
+              2.3878,
+              2.4448,
+              2.3873,
+              2.613,
+              2.017,
+              2.615
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 459,
+              "length": 6
+            }
+          },
+          {
+            "content": "4880.00",
+            "polygon": [
+              2.4403,
+              2.4448,
+              2.9983,
+              2.4414,
+              2.9983,
+              2.6099,
+              2.4396,
+              2.6128
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 466,
+              "length": 7
+            }
+          },
+          {
+            "content": "DECLARATION",
+            "polygon": [
+              0.8814,
+              8.2245,
+              2.0046,
+              8.2241,
+              2.0046,
+              8.3825,
+              0.8814,
+              8.3825
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 474,
+              "length": 11
+            }
+          },
+          {
+            "content": "I",
+            "polygon": [
+              0.884,
+              8.4692,
+              0.9129,
+              8.4692,
+              0.9129,
+              8.6141,
+              0.8841,
+              8.6142
+            ],
+            "confidence": 0.851,
+            "span": {
+              "offset": 486,
+              "length": 1
+            }
+          },
+          {
+            "content": "declare",
+            "polygon": [
+              0.9561,
+              8.4693,
+              1.3646,
+              8.47,
+              1.3644,
+              8.614,
+              0.9561,
+              8.614
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 488,
+              "length": 7
+            }
+          },
+          {
+            "content": "that",
+            "polygon": [
+              1.3982,
+              8.4701,
+              1.5953,
+              8.4702,
+              1.595,
+              8.615,
+              1.3981,
+              8.6141
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 496,
+              "length": 4
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              1.6241,
+              8.4703,
+              1.7971,
+              8.4704,
+              1.7968,
+              8.6161,
+              1.6238,
+              8.6151
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 501,
+              "length": 3
+            }
+          },
+          {
+            "content": "information",
+            "polygon": [
+              1.826,
+              8.4704,
+              2.4651,
+              8.4704,
+              2.4645,
+              8.6177,
+              1.8256,
+              8.6163
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 505,
+              "length": 11
+            }
+          },
+          {
+            "content": "given",
+            "polygon": [
+              2.506,
+              8.4705,
+              2.7991,
+              8.4703,
+              2.7986,
+              8.6181,
+              2.5054,
+              8.6179
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 517,
+              "length": 5
+            }
+          },
+          {
+            "content": "on",
+            "polygon": [
+              2.84,
+              8.4702,
+              2.9745,
+              8.4707,
+              2.974,
+              8.6181,
+              2.8394,
+              8.6181
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 523,
+              "length": 2
+            }
+          },
+          {
+            "content": "this",
+            "polygon": [
+              3.013,
+              8.4708,
+              3.2052,
+              8.4715,
+              3.2046,
+              8.6179,
+              3.0124,
+              8.6181
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 526,
+              "length": 4
+            }
+          },
+          {
+            "content": "form",
+            "polygon": [
+              3.2413,
+              8.4716,
+              3.4864,
+              8.4718,
+              3.4857,
+              8.6178,
+              3.2407,
+              8.6179
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 531,
+              "length": 4
+            }
+          },
+          {
+            "content": "is",
+            "polygon": [
+              3.532,
+              8.4716,
+              3.6161,
+              8.4713,
+              3.6154,
+              8.6182,
+              3.5314,
+              8.618
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 536,
+              "length": 2
+            }
+          },
+          {
+            "content": "true",
+            "polygon": [
+              3.6522,
+              8.4712,
+              3.866,
+              8.4712,
+              3.8653,
+              8.6186,
+              3.6515,
+              8.6183
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 539,
+              "length": 4
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              3.9045,
+              8.4712,
+              4.1039,
+              8.4716,
+              4.1031,
+              8.6188,
+              3.9037,
+              8.6186
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 544,
+              "length": 3
+            }
+          },
+          {
+            "content": "complete",
+            "polygon": [
+              4.1472,
+              8.4718,
+              4.6494,
+              8.4707,
+              4.6489,
+              8.6195,
+              4.1463,
+              8.6189
+            ],
+            "confidence": 0.996,
+            "span": {
+              "offset": 548,
+              "length": 8
+            }
+          },
+          {
+            "content": "to",
+            "polygon": [
+              4.6854,
+              8.4706,
+              4.803,
+              8.4703,
+              4.803,
+              8.6194,
+              4.685,
+              8.6195
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 557,
+              "length": 2
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              0.8764,
+              8.6922,
+              1.0438,
+              8.6926,
+              1.0434,
+              8.8419,
+              0.8761,
+              8.8417
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 560,
+              "length": 3
+            }
+          },
+          {
+            "content": "best",
+            "polygon": [
+              1.0733,
+              8.6927,
+              1.3342,
+              8.6929,
+              1.3337,
+              8.8426,
+              1.0729,
+              8.842
+            ],
+            "confidence": 0.989,
+            "span": {
+              "offset": 564,
+              "length": 4
+            }
+          },
+          {
+            "content": "of",
+            "polygon": [
+              1.3662,
+              8.6929,
+              1.4573,
+              8.6929,
+              1.4568,
+              8.8428,
+              1.3657,
+              8.8427
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 569,
+              "length": 2
+            }
+          },
+          {
+            "content": "my",
+            "polygon": [
+              1.4869,
+              8.6929,
+              1.6542,
+              8.6927,
+              1.6534,
+              8.8425,
+              1.4863,
+              8.8428
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 572,
+              "length": 2
+            }
+          },
+          {
+            "content": "knowledge.",
+            "polygon": [
+              1.6838,
+              8.6927,
+              2.3312,
+              8.6928,
+              2.3302,
+              8.8436,
+              1.6829,
+              8.8424
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 575,
+              "length": 10
+            }
+          },
+          {
+            "content": "I",
+            "polygon": [
+              2.3779,
+              8.6928,
+              2.4001,
+              8.6928,
+              2.399,
+              8.8437,
+              2.3769,
+              8.8437
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 586,
+              "length": 1
+            }
+          },
+          {
+            "content": "understand",
+            "polygon": [
+              2.4469,
+              8.6928,
+              3.0623,
+              8.6941,
+              3.0606,
+              8.8432,
+              2.4458,
+              8.8438
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 588,
+              "length": 10
+            }
+          },
+          {
+            "content": "that",
+            "polygon": [
+              3.1041,
+              8.6942,
+              3.3133,
+              8.6946,
+              3.3116,
+              8.8431,
+              3.1024,
+              8.8432
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 599,
+              "length": 4
+            }
+          },
+          {
+            "content": "giving",
+            "polygon": [
+              3.3503,
+              8.6946,
+              3.6678,
+              8.6939,
+              3.6664,
+              8.844,
+              3.3486,
+              8.8431
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 604,
+              "length": 6
+            }
+          },
+          {
+            "content": "false",
+            "polygon": [
+              3.7047,
+              8.6938,
+              3.9681,
+              8.6942,
+              3.9669,
+              8.8447,
+              3.7033,
+              8.8442
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 611,
+              "length": 5
+            }
+          },
+          {
+            "content": "information",
+            "polygon": [
+              4.01,
+              8.6943,
+              4.6204,
+              8.6943,
+              4.6188,
+              8.8457,
+              4.0088,
+              8.8448
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 617,
+              "length": 11
+            }
+          },
+          {
+            "content": "may",
+            "polygon": [
+              4.6623,
+              8.6948,
+              4.9058,
+              8.6976,
+              4.9058,
+              8.8489,
+              4.6607,
+              8.8462
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 629,
+              "length": 3
+            }
+          },
+          {
+            "content": "invalidate",
+            "polygon": [
+              0.8752,
+              8.9148,
+              1.3965,
+              8.9167,
+              1.3963,
+              9.0671,
+              0.8753,
+              9.0661
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 633,
+              "length": 10
+            }
+          },
+          {
+            "content": "my",
+            "polygon": [
+              1.426,
+              8.9168,
+              1.6031,
+              8.9169,
+              1.6028,
+              9.0665,
+              1.4258,
+              9.0671
+            ],
+            "confidence": 0.997,
+            "span": {
+              "offset": 644,
+              "length": 2
+            }
+          },
+          {
+            "content": "policy",
+            "polygon": [
+              1.6326,
+              8.917,
+              1.9694,
+              8.9154,
+              1.9692,
+              9.0677,
+              1.6323,
+              9.0664
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 647,
+              "length": 6
+            }
+          },
+          {
+            "content": "and",
+            "polygon": [
+              2.0063,
+              8.9152,
+              2.2079,
+              8.914,
+              2.2076,
+              9.0674,
+              2.006,
+              9.0677
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 654,
+              "length": 3
+            }
+          },
+          {
+            "content": "may",
+            "polygon": [
+              2.2522,
+              8.9141,
+              2.4833,
+              8.9151,
+              2.4828,
+              9.0678,
+              2.2518,
+              9.0675
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 658,
+              "length": 3
+            }
+          },
+          {
+            "content": "be",
+            "polygon": [
+              2.5227,
+              8.915,
+              2.6555,
+              8.9145,
+              2.6548,
+              9.0668,
+              2.5221,
+              9.0678
+            ],
+            "confidence": 0.998,
+            "span": {
+              "offset": 662,
+              "length": 2
+            }
+          },
+          {
+            "content": "reported",
+            "polygon": [
+              2.6973,
+              8.9144,
+              3.1522,
+              8.9146,
+              3.1516,
+              9.0652,
+              2.6966,
+              9.0664
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 665,
+              "length": 8
+            }
+          },
+          {
+            "content": "to",
+            "polygon": [
+              3.1915,
+              8.9148,
+              3.2948,
+              8.9153,
+              3.2943,
+              9.0647,
+              3.191,
+              9.065
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 674,
+              "length": 2
+            }
+          },
+          {
+            "content": "the",
+            "polygon": [
+              3.3317,
+              8.9154,
+              3.5038,
+              8.9154,
+              3.5031,
+              9.064,
+              3.3311,
+              9.0646
+            ],
+            "confidence": 0.999,
+            "span": {
+              "offset": 677,
+              "length": 3
+            }
+          },
+          {
+            "content": "relevant",
+            "polygon": [
+              3.5456,
+              8.9155,
+              3.9857,
+              8.9159,
+              3.9854,
+              9.0631,
+              3.5448,
+              9.0638
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 681,
+              "length": 8
+            }
+          },
+          {
+            "content": "authorities.",
+            "polygon": [
+              4.0201,
+              8.9159,
+              4.6317,
+              8.9143,
+              4.6317,
+              9.0612,
+              4.0199,
+              9.0629
+            ],
+            "confidence": 0.992,
+            "span": {
+              "offset": 690,
+              "length": 12
+            }
+          },
+          {
+            "content": "Signature:",
+            "polygon": [
+              0.8831,
+              9.3672,
+              1.462,
+              9.3676,
+              1.462,
+              9.5044,
+              0.8832,
+              9.5062
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 703,
+              "length": 10
+            }
+          },
+          {
+            "content": "Date:",
+            "polygon": [
+              3.1905,
+              9.3704,
+              3.4952,
+              9.3725,
+              3.4952,
+              9.4882,
+              3.19,
+              9.4877
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 714,
+              "length": 5
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "CASE APPLICATION FORM",
+            "polygon": [
+              0.8836,
+              0.6966,
+              3.7938,
+              0.6975,
+              3.7938,
+              0.9197,
+              0.8836,
+              0.9186
+            ],
+            "spans": [
+              {
+                "offset": 302,
+                "length": 21
+              }
+            ]
+          },
+          {
+            "content": "DecisionStream AI - Motor Claims Intake",
+            "polygon": [
+              0.8839,
+              1.0119,
+              3.4818,
+              1.013,
+              3.4818,
+              1.1624,
+              0.8839,
+              1.1613
+            ],
+            "spans": [
+              {
+                "offset": 324,
+                "length": 39
+              }
+            ]
+          },
+          {
+            "content": "Document APP-0008",
+            "polygon": [
+              0.8836,
+              1.2148,
+              2.1985,
+              1.2112,
+              2.1988,
+              1.3566,
+              0.884,
+              1.3602
+            ],
+            "spans": [
+              {
+                "offset": 364,
+                "length": 17
+              }
+            ]
+          },
+          {
+            "content": "Page 2 of 2",
+            "polygon": [
+              2.5716,
+              1.2178,
+              3.2962,
+              1.2173,
+              3.2963,
+              1.3657,
+              2.5717,
+              1.3662
+            ],
+            "spans": [
+              {
+                "offset": 382,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "Parts Subtotal: 2900.00",
+            "polygon": [
+              0.8789,
+              1.8377,
+              2.4911,
+              1.835,
+              2.4913,
+              1.9924,
+              0.8791,
+              1.9952
+            ],
+            "spans": [
+              {
+                "offset": 394,
+                "length": 23
+              }
+            ]
+          },
+          {
+            "content": "Labour Subtotal: 1480.00",
+            "polygon": [
+              0.8806,
+              2.1459,
+              2.6082,
+              2.1425,
+              2.6085,
+              2.3029,
+              0.8809,
+              2.3062
+            ],
+            "spans": [
+              {
+                "offset": 418,
+                "length": 24
+              }
+            ]
+          },
+          {
+            "content": "Repair Estimate Total: 4880.00",
+            "polygon": [
+              0.8777,
+              2.4488,
+              2.9971,
+              2.4414,
+              2.9977,
+              2.6106,
+              0.8783,
+              2.618
+            ],
+            "spans": [
+              {
+                "offset": 443,
+                "length": 30
+              }
+            ]
+          },
+          {
+            "content": "DECLARATION",
+            "polygon": [
+              0.8813,
+              8.2245,
+              2.0016,
+              8.2235,
+              2.0018,
+              8.3804,
+              0.8814,
+              8.3814
+            ],
+            "spans": [
+              {
+                "offset": 474,
+                "length": 11
+              }
+            ]
+          },
+          {
+            "content": "I declare that the information given on this form is true and complete to",
+            "polygon": [
+              0.884,
+              8.4692,
+              4.8007,
+              8.4703,
+              4.8007,
+              8.6172,
+              0.884,
+              8.6161
+            ],
+            "spans": [
+              {
+                "offset": 486,
+                "length": 73
+              }
+            ]
+          },
+          {
+            "content": "the best of my knowledge. I understand that giving false information may",
+            "polygon": [
+              0.8764,
+              8.6909,
+              4.9028,
+              8.6948,
+              4.9025,
+              8.8463,
+              0.8761,
+              8.8394
+            ],
+            "spans": [
+              {
+                "offset": 560,
+                "length": 72
+              }
+            ]
+          },
+          {
+            "content": "invalidate my policy and may be reported to the relevant authorities.",
+            "polygon": [
+              0.8752,
+              8.914,
+              4.6302,
+              8.9139,
+              4.6302,
+              9.0655,
+              0.8752,
+              9.0657
+            ],
+            "spans": [
+              {
+                "offset": 633,
+                "length": 69
+              }
+            ]
+          },
+          {
+            "content": "Signature:",
+            "polygon": [
+              0.8831,
+              9.3672,
+              1.4603,
+              9.3676,
+              1.4602,
+              9.5043,
+              0.883,
+              9.5039
+            ],
+            "spans": [
+              {
+                "offset": 703,
+                "length": 10
+              }
+            ]
+          },
+          {
+            "content": "Date:",
+            "polygon": [
+              3.1905,
+              9.3704,
+              3.4947,
+              9.3725,
+              3.4939,
+              9.4878,
+              3.1898,
+              9.4857
+            ],
+            "spans": [
+              {
+                "offset": 714,
+                "length": 5
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 302,
+            "length": 417
+          }
+        ]
+      }
+    ],
+    "tables": [],
+    "paragraphs": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 91
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8834,
+              0.701,
+              3.7937,
+              0.6995,
+              3.7941,
+              1.3658,
+              0.8837,
+              1.3672
+            ]
+          }
+        ],
+        "role": "pageNumber",
+        "content": "CASE APPLICATION FORM DecisionStream AI - Motor Claims Intake Document APP-0008 Page 1 of 2"
+      },
+      {
+        "spans": [
+          {
+            "offset": 92,
+            "length": 30
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8824,
+              1.8384,
+              3.2218,
+              1.8331,
+              3.2221,
+              1.9938,
+              0.8828,
+              1.999
+            ]
+          }
+        ],
+        "content": "Claim Reference: CLM-2026-4552"
+      },
+      {
+        "spans": [
+          {
+            "offset": 123,
+            "length": 26
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8786,
+              2.1465,
+              2.9438,
+              2.1394,
+              2.9444,
+              2.3092,
+              0.8791,
+              2.3162
+            ]
+          }
+        ],
+        "content": "Policy Number: MOT-4552901"
+      },
+      {
+        "spans": [
+          {
+            "offset": 150,
+            "length": 32
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8776,
+              2.4416,
+              3.3307,
+              2.4395,
+              3.3309,
+              2.6237,
+              0.8778,
+              2.6258
+            ]
+          }
+        ],
+        "content": "Applicant Full Name: [PERSON_09]"
+      },
+      {
+        "spans": [
+          {
+            "offset": 183,
+            "length": 25
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8832,
+              2.7567,
+              2.6094,
+              2.7513,
+              2.61,
+              2.9124,
+              0.8837,
+              2.9179
+            ]
+          }
+        ],
+        "content": "Date of Birth: 1972-05-08"
+      },
+      {
+        "spans": [
+          {
+            "offset": 209,
+            "length": 30
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8763,
+              3.0574,
+              3.0839,
+              3.0519,
+              3.0843,
+              3.2273,
+              0.8767,
+              3.2328
+            ]
+          }
+        ],
+        "content": "Vehicle Registration: PC17 KDN"
+      },
+      {
+        "spans": [
+          {
+            "offset": 240,
+            "length": 25
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8809,
+              3.3696,
+              2.6619,
+              3.3663,
+              2.6622,
+              3.5254,
+              0.8812,
+              3.5287
+            ]
+          }
+        ],
+        "content": "Incident Date: 2026-03-12"
+      },
+      {
+        "spans": [
+          {
+            "offset": 266,
+            "length": 20
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8794,
+              3.6708,
+              2.3945,
+              3.6672,
+              2.3949,
+              3.8279,
+              0.8798,
+              3.8315
+            ]
+          }
+        ],
+        "content": "Sum Insured: 5600.00"
+      },
+      {
+        "spans": [
+          {
+            "offset": 287,
+            "length": 14
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.8793,
+              3.9799,
+              1.9356,
+              3.9777,
+              1.9359,
+              4.1326,
+              0.8796,
+              4.1348
+            ]
+          }
+        ],
+        "content": "Excess: 250.00"
+      },
+      {
+        "spans": [
+          {
+            "offset": 302,
+            "length": 21
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8836,
+              0.6964,
+              3.7938,
+              0.6975,
+              3.7938,
+              0.9197,
+              0.8836,
+              0.9186
+            ]
+          }
+        ],
+        "role": "title",
+        "content": "CASE APPLICATION FORM"
+      },
+      {
+        "spans": [
+          {
+            "offset": 324,
+            "length": 57
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8837,
+              1.0119,
+              3.4818,
+              1.013,
+              3.4817,
+              1.3613,
+              0.8836,
+              1.3602
+            ]
+          }
+        ],
+        "content": "DecisionStream AI - Motor Claims Intake Document APP-0008"
+      },
+      {
+        "spans": [
+          {
+            "offset": 382,
+            "length": 11
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              2.5716,
+              1.2178,
+              3.2962,
+              1.2173,
+              3.2963,
+              1.3657,
+              2.5717,
+              1.3662
+            ]
+          }
+        ],
+        "role": "pageNumber",
+        "content": "Page 2 of 2"
+      },
+      {
+        "spans": [
+          {
+            "offset": 394,
+            "length": 23
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8789,
+              1.8377,
+              2.4911,
+              1.835,
+              2.4913,
+              1.9924,
+              0.8791,
+              1.9952
+            ]
+          }
+        ],
+        "content": "Parts Subtotal: 2900.00"
+      },
+      {
+        "spans": [
+          {
+            "offset": 418,
+            "length": 24
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8806,
+              2.1459,
+              2.6082,
+              2.1425,
+              2.6085,
+              2.3029,
+              0.8809,
+              2.3062
+            ]
+          }
+        ],
+        "content": "Labour Subtotal: 1480.00"
+      },
+      {
+        "spans": [
+          {
+            "offset": 443,
+            "length": 30
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8777,
+              2.4488,
+              2.9971,
+              2.4414,
+              2.9977,
+              2.6106,
+              0.8783,
+              2.618
+            ]
+          }
+        ],
+        "content": "Repair Estimate Total: 4880.00"
+      },
+      {
+        "spans": [
+          {
+            "offset": 474,
+            "length": 11
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8813,
+              8.2245,
+              2.0016,
+              8.2235,
+              2.0018,
+              8.3804,
+              0.8814,
+              8.3814
+            ]
+          }
+        ],
+        "content": "DECLARATION"
+      },
+      {
+        "spans": [
+          {
+            "offset": 486,
+            "length": 216
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8754,
+              8.4692,
+              4.9029,
+              8.4703,
+              4.9027,
+              9.0668,
+              0.8752,
+              9.0657
+            ]
+          }
+        ],
+        "content": "I declare that the information given on this form is true and complete to the best of my knowledge. I understand that giving false information may invalidate my policy and may be reported to the relevant authorities."
+      },
+      {
+        "spans": [
+          {
+            "offset": 703,
+            "length": 10
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              0.8831,
+              9.3672,
+              1.4603,
+              9.3676,
+              1.4602,
+              9.5043,
+              0.883,
+              9.5039
+            ]
+          }
+        ],
+        "content": "Signature:"
+      },
+      {
+        "spans": [
+          {
+            "offset": 714,
+            "length": 5
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 2,
+            "polygon": [
+              3.1905,
+              9.3704,
+              3.4947,
+              9.3725,
+              3.4939,
+              9.4878,
+              3.1898,
+              9.4857
+            ]
+          }
+        ],
+        "content": "Date:"
+      }
+    ],
+    "keyValuePairs": [
+      {
+        "key": {
+          "content": "Claim Reference:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8824,
+                1.8373,
+                2.0565,
+                1.8364,
+                2.0566,
+                1.9986,
+                0.8825,
+                1.9995
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 92,
+              "length": 16
+            }
+          ]
+        },
+        "value": {
+          "content": "CLM-2026-4552",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                2.1146,
+                1.836,
+                3.2267,
+                1.8336,
+                3.2271,
+                1.9963,
+                2.1149,
+                1.9987
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 109,
+              "length": 13
+            }
+          ]
+        },
+        "confidence": 0.996
+      },
+      {
+        "key": {
+          "content": "Policy Number:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8792,
+                2.1439,
+                1.9133,
+                2.144,
+                1.9133,
+                2.3173,
+                0.8791,
+                2.3172
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 123,
+              "length": 14
+            }
+          ]
+        },
+        "value": {
+          "content": "MOT-4552901",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                1.9734,
+                2.1438,
+                2.9469,
+                2.1393,
+                2.9477,
+                2.3068,
+                1.9741,
+                2.3113
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 138,
+              "length": 11
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Applicant Full Name:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8772,
+                2.4463,
+                2.2839,
+                2.4417,
+                2.2845,
+                2.6242,
+                0.8778,
+                2.6288
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 150,
+              "length": 20
+            }
+          ]
+        },
+        "value": {
+          "content": "[PERSON_09]",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                2.3424,
+                2.4401,
+                3.3353,
+                2.4395,
+                3.3354,
+                2.6267,
+                2.3425,
+                2.6273
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 171,
+              "length": 11
+            }
+          ]
+        },
+        "confidence": 0.953
+      },
+      {
+        "key": {
+          "content": "Date of Birth:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8833,
+                2.757,
+                1.7685,
+                2.7544,
+                1.769,
+                2.9168,
+                0.8837,
+                2.9194
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 183,
+              "length": 14
+            }
+          ]
+        },
+        "value": {
+          "content": "1972-05-08",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                1.8317,
+                2.7542,
+                2.61,
+                2.7513,
+                2.6106,
+                2.9142,
+                1.8323,
+                2.9171
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 198,
+              "length": 10
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Vehicle Registration:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8763,
+                3.056,
+                2.2781,
+                3.0549,
+                2.2782,
+                3.2313,
+                0.8764,
+                3.2324
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 209,
+              "length": 21
+            }
+          ]
+        },
+        "value": {
+          "content": "PC17 KDN",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                2.3379,
+                3.0532,
+                3.084,
+                3.0519,
+                3.0843,
+                3.2289,
+                2.3383,
+                3.2303
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 231,
+              "length": 8
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Incident Date:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8811,
+                3.3691,
+                1.8194,
+                3.369,
+                1.8194,
+                3.5288,
+                0.8811,
+                3.529
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 240,
+              "length": 14
+            }
+          ]
+        },
+        "value": {
+          "content": "2026-03-12",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                1.8714,
+                3.3681,
+                2.6671,
+                3.3667,
+                2.6673,
+                3.5271,
+                1.8717,
+                3.5284
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 255,
+              "length": 10
+            }
+          ]
+        },
+        "confidence": 0.996
+      },
+      {
+        "key": {
+          "content": "Sum Insured:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8794,
+                3.6696,
+                1.7861,
+                3.6699,
+                1.7861,
+                3.8318,
+                0.8794,
+                3.8315
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 266,
+              "length": 12
+            }
+          ]
+        },
+        "value": {
+          "content": "5600.00",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                1.8412,
+                3.6691,
+                2.3986,
+                3.6672,
+                2.3992,
+                3.8296,
+                1.8418,
+                3.8315
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 279,
+              "length": 7
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Excess:",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                0.8793,
+                3.9799,
+                1.4396,
+                3.98,
+                1.4396,
+                4.1374,
+                0.8793,
+                4.1374
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 287,
+              "length": 7
+            }
+          ]
+        },
+        "value": {
+          "content": "250.00",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                1.4693,
+                3.9805,
+                1.936,
+                3.978,
+                1.9369,
+                4.1346,
+                1.4702,
+                4.1371
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 295,
+              "length": 6
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Parts Subtotal:",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                0.879,
+                1.8362,
+                1.8794,
+                1.8365,
+                1.8794,
+                1.9974,
+                0.879,
+                1.9971
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 394,
+              "length": 15
+            }
+          ]
+        },
+        "value": {
+          "content": "2900.00",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                1.9308,
+                1.8366,
+                2.4942,
+                1.8353,
+                2.4946,
+                1.994,
+                1.9312,
+                1.9954
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 410,
+              "length": 7
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Labour Subtotal:",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                0.8806,
+                2.1461,
+                2.0349,
+                2.1438,
+                2.0352,
+                2.3058,
+                0.8809,
+                2.3082
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 418,
+              "length": 16
+            }
+          ]
+        },
+        "value": {
+          "content": "1480.00",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                2.0691,
+                2.1432,
+                2.61,
+                2.1426,
+                2.6101,
+                2.3056,
+                2.0693,
+                2.3062
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 435,
+              "length": 7
+            }
+          ]
+        },
+        "confidence": 0.998
+      },
+      {
+        "key": {
+          "content": "Repair Estimate Total:",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                0.8775,
+                2.4488,
+                2.3878,
+                2.4419,
+                2.3886,
+                2.6137,
+                0.8783,
+                2.6206
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 443,
+              "length": 22
+            }
+          ]
+        },
+        "value": {
+          "content": "4880.00",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                2.4387,
+                2.4446,
+                2.9983,
+                2.4414,
+                2.9993,
+                2.6099,
+                2.4396,
+                2.6131
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 466,
+              "length": 7
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Signature:",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                0.883,
+                9.3672,
+                1.462,
+                9.3665,
+                1.4622,
+                9.5055,
+                0.8832,
+                9.5062
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 703,
+              "length": 10
+            }
+          ]
+        },
+        "confidence": 0.997
+      },
+      {
+        "key": {
+          "content": "Date:",
+          "boundingRegions": [
+            {
+              "pageNumber": 2,
+              "polygon": [
+                3.1905,
+                9.3704,
+                3.4957,
+                9.3718,
+                3.4952,
+                9.489,
+                3.19,
+                9.4877
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "offset": 714,
+              "length": 5
+            }
+          ]
+        },
+        "confidence": 0.997
+      }
+    ],
+    "styles": [],
+    "contentFormat": "text",
+    "sections": [
+      {
+        "spans": [
+          {
+            "offset": 92,
+            "length": 289
+          },
+          {
+            "offset": 394,
+            "length": 325
+          }
+        ],
+        "elements": [
+          "/sections/1",
+          "/sections/2"
+        ]
+      },
+      {
+        "spans": [
+          {
+            "offset": 92,
+            "length": 209
+          }
+        ],
+        "elements": [
+          "/paragraphs/1",
+          "/paragraphs/2",
+          "/paragraphs/3",
+          "/paragraphs/4",
+          "/paragraphs/5",
+          "/paragraphs/6",
+          "/paragraphs/7",
+          "/paragraphs/8"
+        ]
+      },
+      {
+        "spans": [
+          {
+            "offset": 302,
+            "length": 79
+          },
+          {
+            "offset": 394,
+            "length": 325
+          }
+        ],
+        "elements": [
+          "/paragraphs/9",
+          "/paragraphs/10",
+          "/paragraphs/12",
+          "/paragraphs/13",
+          "/paragraphs/14",
+          "/paragraphs/15",
+          "/paragraphs/16",
+          "/paragraphs/17",
+          "/paragraphs/18"
+        ]
+      }
+    ]
+  }
+}

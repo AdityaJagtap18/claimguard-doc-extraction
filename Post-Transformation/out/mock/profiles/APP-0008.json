@@ -1,0 +1,98 @@
+{
+  "document_id": "APP-0008",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_09]",
+    "date_of_birth": "1972-05-08",
+    "incident_date": "2026-03-12",
+    "sum_insured": 5600.0,
+    "excess": 250.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4552",
+      "value": "CLM-2026-4552",
+      "confidence": 0.96,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4552901",
+      "value": "MOT-4552901",
+      "confidence": 0.95,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "vehicle_registration",
+      "raw": "PC17 KDN",
+      "value": "PC17 KDN",
+      "confidence": 0.94,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "parts_subtotal",
+      "raw": "2900.00",
+      "value": 2900.0,
+      "confidence": 0.93,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    },
+    {
+      "field": "labour_subtotal",
+      "raw": "1480.00",
+      "value": 1480.0,
+      "confidence": 0.92,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "4880.00",
+      "value": 4880.0,
+      "confidence": 0.95,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [
+    {
+      "code": "arithmetic_mismatch",
+      "detail": "parts 2900.0 + labour 1480.0 = 4380.0, stated total 4880.0",
+      "fields": [
+        "repair_estimate_total",
+        "parts_subtotal",
+        "labour_subtotal"
+      ]
+    }
+  ],
+  "needs_human": true,
+  "score": {
+    "accepted": 5,
+    "correct": 4,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 6,
+    "missing": 0,
+    "auto_rate": 0.44
+  }
+}

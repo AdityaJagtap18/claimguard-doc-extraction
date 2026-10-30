@@ -1,0 +1,83 @@
+{
+  "document_id": "APP-0003",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_04]",
+    "date_of_birth": "1979-11-05",
+    "incident_date": "2026-03-09",
+    "sum_insured": 7750.0,
+    "excess": 300.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-45O3",
+      "value": "CLM-2026-4503",
+      "confidence": 0.962,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ocr_repaired_to_pattern"
+      ]
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-45O3901",
+      "value": "MOT-45O3901",
+      "confidence": 0.937,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "pattern_mismatch"
+      ]
+    },
+    {
+      "field": "vehicle_registration",
+      "raw": "BD1B MHK",
+      "value": "BD1B MHK",
+      "confidence": 0.996,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "pattern_mismatch"
+      ]
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "341O.OO",
+      "value": 3410.0,
+      "confidence": 0.913,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "ocr_letter_in_number"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Signature",
+      "page": 2,
+      "reason": "unmapped_label"
+    },
+    {
+      "label": "Date",
+      "page": 2,
+      "reason": "unmapped_label"
+    }
+  ],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 5,
+    "correct": 4,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 4,
+    "missing": 0,
+    "auto_rate": 0.44
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "document_id": "APP-0001",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4471",
+    "policy_number": "MOT-4471902",
+    "applicant_name": "[PERSON_01]",
+    "date_of_birth": "1987-04-12",
+    "vehicle_registration": "KP19 TRX",
+    "incident_date": "2026-03-14",
+    "sum_insured": 9000.0,
+    "excess": 350.0
+  },
+  "review_queue": [
+    {
+      "field": "repair_estimate_total",
+      "raw": "12400.00",
+      "value": 12400.0,
+      "confidence": 0.997,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "estimate_exceeds_sum_insured"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Signature",
+      "page": 2,
+      "reason": "unmapped_label"
+    },
+    {
+      "label": "Date",
+      "page": 2,
+      "reason": "unmapped_label"
+    }
+  ],
+  "validations": [
+    {
+      "code": "estimate_exceeds_sum_insured",
+      "detail": "estimate 12400.0 against sum insured 9000.0",
+      "fields": [
+        "repair_estimate_total"
+      ]
+    }
+  ],
+  "needs_human": true,
+  "score": {
+    "accepted": 8,
+    "correct": 7,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 1,
+    "missing": 0,
+    "auto_rate": 0.78
+  }
+}

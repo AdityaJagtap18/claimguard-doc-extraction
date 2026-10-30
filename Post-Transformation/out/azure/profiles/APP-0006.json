@@ -1,0 +1,62 @@
+{
+  "document_id": "APP-0006",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4534",
+    "policy_number": "MOT-4534901",
+    "applicant_name": "[PERSON_07]",
+    "date_of_birth": "1996-06-21",
+    "vehicle_registration": "JW19 RQA",
+    "incident_date": "2026-03-17",
+    "sum_insured": 10200.0,
+    "excess": 350.0,
+    "personal_injury_claimed": false
+  },
+  "review_queue": [
+    {
+      "field": "repair_estimate_total",
+      "raw": "11050.00",
+      "value": 11050.0,
+      "confidence": 0.997,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "estimate_exceeds_sum_insured"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Signature",
+      "page": 2,
+      "reason": "unmapped_label"
+    },
+    {
+      "label": "Date",
+      "page": 2,
+      "reason": "unmapped_label"
+    }
+  ],
+  "validations": [
+    {
+      "code": "estimate_exceeds_sum_insured",
+      "detail": "estimate 11050.0 against sum insured 10200.0",
+      "fields": [
+        "repair_estimate_total"
+      ]
+    }
+  ],
+  "needs_human": true,
+  "score": {
+    "accepted": 9,
+    "correct": 8,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 1,
+    "missing": 0,
+    "auto_rate": 0.89
+  }
+}

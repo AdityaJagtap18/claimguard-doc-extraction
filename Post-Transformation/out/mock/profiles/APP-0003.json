@@ -1,0 +1,110 @@
+{
+  "document_id": "APP-0003",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "incident_date": "2026-03-09"
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-45O3",
+      "value": "CLM-2026-4503",
+      "confidence": 0.88,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ocr_repaired_to_pattern"
+      ]
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-45O3901",
+      "value": "MOT-45O3901",
+      "confidence": 0.86,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "pattern_mismatch"
+      ]
+    },
+    {
+      "field": "applicant_name",
+      "raw": "[PERSON_04]",
+      "value": "[PERSON_04]",
+      "confidence": 0.71,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "date_of_birth",
+      "raw": "1979-11-O5",
+      "value": "1979-11-05",
+      "confidence": 0.69,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ocr_letter_in_number"
+      ]
+    },
+    {
+      "field": "vehicle_registration",
+      "raw": "BD1B MHK",
+      "value": "BD1B MHK",
+      "confidence": 0.83,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "pattern_mismatch"
+      ]
+    },
+    {
+      "field": "sum_insured",
+      "raw": "775O.OO",
+      "value": 7750.0,
+      "confidence": 0.74,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ocr_letter_in_number"
+      ]
+    },
+    {
+      "field": "excess",
+      "raw": "3OO.OO",
+      "value": 300.0,
+      "confidence": 0.72,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ocr_letter_in_number"
+      ]
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "341O.OO",
+      "value": 3410.0,
+      "confidence": 0.79,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "ocr_letter_in_number"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 1,
+    "correct": 1,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 8,
+    "missing": 0,
+    "auto_rate": 0.11
+  }
+}

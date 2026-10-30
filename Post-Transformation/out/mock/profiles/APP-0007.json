@@ -1,0 +1,69 @@
+{
+  "document_id": "APP-0007",
+  "pages": 3,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_08]",
+    "date_of_birth": "1988-12-03",
+    "vehicle_registration": "MS21 TVB",
+    "incident_date": "2026-03-25",
+    "sum_insured": 8900.0,
+    "excess": 300.0,
+    "repair_estimate_total": 7630.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4548",
+      "value": "CLM-2026-4548",
+      "confidence": 0.96,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4548901",
+      "value": "MOT-4548901",
+      "confidence": 0.95,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Driving Licence Number",
+      "page": 3,
+      "reason": "identity_evidence_out_of_scope"
+    },
+    {
+      "label": "Licence Issue Date",
+      "page": 3,
+      "reason": "identity_evidence_out_of_scope"
+    },
+    {
+      "label": "Licence Address Line 1",
+      "page": 3,
+      "reason": "identity_evidence_out_of_scope"
+    },
+    {
+      "label": "Licence Postcode",
+      "page": 3,
+      "reason": "identity_evidence_out_of_scope"
+    }
+  ],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 7,
+    "correct": 6,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 2,
+    "missing": 0,
+    "auto_rate": 0.67
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "document_id": "APP-0010",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4573",
+    "policy_number": "MOT-4573901",
+    "applicant_name": "[PERSON_11]",
+    "date_of_birth": "1990-01-22",
+    "vehicle_registration": "ZB20 HRC",
+    "incident_date": "2026-04-06",
+    "sum_insured": 7100.0,
+    "excess": 350.0
+  },
+  "review_queue": [],
+  "missing_required": [
+    "repair_estimate_total"
+  ],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 8,
+    "correct": 7,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 0,
+    "missing": 1,
+    "auto_rate": 0.78
+  }
+}

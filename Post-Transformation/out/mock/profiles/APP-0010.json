@@ -1,0 +1,103 @@
+{
+  "document_id": "APP-0010",
+  "pages": 4,
+  "policy": "tiered",
+  "decision_profile": {},
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4573",
+      "value": "CLM-2026-4573",
+      "confidence": 0.64,
+      "page": 1,
+      "verdict": "reject",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4573901",
+      "value": "MOT-4573901",
+      "confidence": 0.61,
+      "page": 1,
+      "verdict": "reject",
+      "notes": []
+    },
+    {
+      "field": "applicant_name",
+      "raw": "[PERSON_11]",
+      "value": "[PERSON_11]",
+      "confidence": 0.58,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "date_of_birth",
+      "raw": "1990-01-22",
+      "value": "1990-01-22",
+      "confidence": 0.55,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "vehicle_registration",
+      "raw": "ZB20 HRC",
+      "value": "ZB20 HRC",
+      "confidence": 0.67,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "incident_date",
+      "raw": "2026-04-06",
+      "value": "2026-04-06",
+      "confidence": 0.62,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "sum_insured",
+      "raw": "7100.00",
+      "value": 7100.0,
+      "confidence": 0.59,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "excess",
+      "raw": "350.00",
+      "value": 350.0,
+      "confidence": 0.6,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "5940.00",
+      "value": 5940.0,
+      "confidence": 0.63,
+      "page": 3,
+      "verdict": "flag",
+      "notes": []
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 0,
+    "correct": 0,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 9,
+    "missing": 0,
+    "auto_rate": 0.0
+  }
+}

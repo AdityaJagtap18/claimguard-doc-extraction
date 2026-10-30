@@ -1,0 +1,85 @@
+{
+  "document_id": "APP-0008",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4552",
+    "policy_number": "MOT-4552901",
+    "applicant_name": "[PERSON_09]",
+    "date_of_birth": "1972-05-08",
+    "vehicle_registration": "PC17 KDN",
+    "incident_date": "2026-03-12",
+    "sum_insured": 5600.0,
+    "excess": 250.0
+  },
+  "review_queue": [
+    {
+      "field": "parts_subtotal",
+      "raw": "2900.00",
+      "value": 2900.0,
+      "confidence": 0.997,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    },
+    {
+      "field": "labour_subtotal",
+      "raw": "1480.00",
+      "value": 1480.0,
+      "confidence": 0.998,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "4880.00",
+      "value": 4880.0,
+      "confidence": 0.997,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "arithmetic_mismatch"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Signature",
+      "page": 2,
+      "reason": "unmapped_label"
+    },
+    {
+      "label": "Date",
+      "page": 2,
+      "reason": "unmapped_label"
+    }
+  ],
+  "validations": [
+    {
+      "code": "arithmetic_mismatch",
+      "detail": "parts 2900.0 + labour 1480.0 = 4380.0, stated total 4880.0",
+      "fields": [
+        "repair_estimate_total",
+        "parts_subtotal",
+        "labour_subtotal"
+      ]
+    }
+  ],
+  "needs_human": true,
+  "score": {
+    "accepted": 8,
+    "correct": 7,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 3,
+    "missing": 0,
+    "auto_rate": 0.78
+  }
+}

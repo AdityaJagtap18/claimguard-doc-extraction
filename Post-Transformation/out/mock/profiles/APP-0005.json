@@ -1,0 +1,72 @@
+{
+  "document_id": "APP-0005",
+  "pages": 3,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_06]",
+    "date_of_birth": "1984-02-17",
+    "vehicle_registration": "HN20 XCE",
+    "incident_date": "2026-04-03",
+    "sum_insured": 6400.0,
+    "excess": 250.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4526",
+      "value": "CLM-2026-4526",
+      "confidence": 0.96,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4526901",
+      "value": "MOT-4526901",
+      "confidence": 0.95,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "2150.00",
+      "value": 2150.0,
+      "confidence": 0.94,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "conflicting_values_across_pages"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [
+    {
+      "field": "repair_estimate_total",
+      "a": {
+        "value": 2150.0,
+        "page": 2,
+        "confidence": 0.94
+      },
+      "b": {
+        "value": 2450.0,
+        "page": 3,
+        "confidence": 0.91
+      }
+    }
+  ],
+  "dropped": [],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 6,
+    "correct": 5,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 3,
+    "missing": 0,
+    "auto_rate": 0.56
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "document_id": "APP-0007",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4548",
+    "policy_number": "MOT-4548901",
+    "applicant_name": "[PERSON_08]",
+    "date_of_birth": "1988-12-03",
+    "vehicle_registration": "MS21 TVB",
+    "incident_date": "2026-03-25",
+    "sum_insured": 8900.0,
+    "excess": 300.0,
+    "repair_estimate_total": 7630.0
+  },
+  "review_queue": [],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": false,
+  "score": {
+    "accepted": 9,
+    "correct": 8,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 0,
+    "missing": 0,
+    "auto_rate": 0.89
+  }
+}

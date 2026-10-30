@@ -1,0 +1,49 @@
+{
+  "document_id": "APP-0004",
+  "pages": 1,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_05]",
+    "vehicle_registration": "GF22 PLT",
+    "incident_date": "2026-03-28",
+    "repair_estimate_total": 15900.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4517",
+      "value": "CLM-2026-4517",
+      "confidence": 0.96,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4517901",
+      "value": "MOT-4517901",
+      "confidence": 0.94,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    }
+  ],
+  "missing_required": [
+    "date_of_birth",
+    "sum_insured",
+    "excess"
+  ],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": true,
+  "score": {
+    "accepted": 4,
+    "correct": 3,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 2,
+    "missing": 3,
+    "auto_rate": 0.33
+  }
+}

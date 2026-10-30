@@ -1,0 +1,37 @@
+{
+  "document_id": "APP-0005",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4526",
+    "policy_number": "MOT-4526901",
+    "applicant_name": "[PERSON_06]",
+    "date_of_birth": "1984-02-17",
+    "vehicle_registration": "HN20 XCE",
+    "incident_date": "2026-04-03",
+    "sum_insured": 6400.0,
+    "excess": 250.0,
+    "repair_estimate_total": 2150.0
+  },
+  "review_queue": [],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [],
+  "needs_human": false,
+  "score": {
+    "accepted": 9,
+    "correct": 7,
+    "wrong_accepted": 1,
+    "wrong_fields": [
+      [
+        "repair_estimate_total",
+        2150.0,
+        "CONFLICT"
+      ]
+    ],
+    "flagged": 0,
+    "missing": 0,
+    "auto_rate": 0.78
+  }
+}

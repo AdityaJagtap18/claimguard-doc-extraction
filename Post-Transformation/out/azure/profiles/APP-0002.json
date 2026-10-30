@@ -1,0 +1,42 @@
+{
+  "document_id": "APP-0002",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "claim_reference": "CLM-2026-4482",
+    "policy_number": "MOT-4482901",
+    "applicant_name": "[PERSON_03]",
+    "date_of_birth": "1991-09-30",
+    "vehicle_registration": "LT21 WNB",
+    "incident_date": "2026-04-02",
+    "sum_insured": 9100.0,
+    "excess": 250.0,
+    "repair_estimate_total": 6220.0
+  },
+  "review_queue": [],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [
+    {
+      "label": "Signature",
+      "page": 2,
+      "reason": "unmapped_label"
+    },
+    {
+      "label": "Date",
+      "page": 2,
+      "reason": "unmapped_label"
+    }
+  ],
+  "validations": [],
+  "needs_human": false,
+  "score": {
+    "accepted": 9,
+    "correct": 8,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 0,
+    "missing": 0,
+    "auto_rate": 0.89
+  }
+}

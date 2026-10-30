@@ -1,0 +1,86 @@
+{
+  "document_id": "APP-0009",
+  "pages": 2,
+  "policy": "tiered",
+  "decision_profile": {
+    "applicant_name": "[PERSON_10]",
+    "vehicle_registration": "QT19 LFS",
+    "sum_insured": 9800.0,
+    "excess": 400.0
+  },
+  "review_queue": [
+    {
+      "field": "claim_reference",
+      "raw": "CLM-2026-4561",
+      "value": "CLM-2026-4561",
+      "confidence": 0.96,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "policy_number",
+      "raw": "MOT-4561901",
+      "value": "MOT-4561901",
+      "confidence": 0.95,
+      "page": 1,
+      "verdict": "flag",
+      "notes": []
+    },
+    {
+      "field": "date_of_birth",
+      "raw": "12/07/1993",
+      "value": null,
+      "confidence": 0.9,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ambiguous_date_format"
+      ]
+    },
+    {
+      "field": "incident_date",
+      "raw": "04/03/2026",
+      "value": null,
+      "confidence": 0.91,
+      "page": 1,
+      "verdict": "flag",
+      "notes": [
+        "ambiguous_date_format"
+      ]
+    },
+    {
+      "field": "repair_estimate_total",
+      "raw": "13200.00",
+      "value": 13200.0,
+      "confidence": 0.94,
+      "page": 2,
+      "verdict": "flag",
+      "notes": [
+        "estimate_exceeds_sum_insured"
+      ]
+    }
+  ],
+  "missing_required": [],
+  "conflicts": [],
+  "dropped": [],
+  "validations": [
+    {
+      "code": "estimate_exceeds_sum_insured",
+      "detail": "estimate 13200.0 against sum insured 9800.0",
+      "fields": [
+        "repair_estimate_total"
+      ]
+    }
+  ],
+  "needs_human": true,
+  "score": {
+    "accepted": 4,
+    "correct": 3,
+    "wrong_accepted": 0,
+    "wrong_fields": [],
+    "flagged": 5,
+    "missing": 0,
+    "auto_rate": 0.33
+  }
+}
